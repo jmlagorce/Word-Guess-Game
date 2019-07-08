@@ -30,20 +30,6 @@ function wordChosen (){
 }
 
 
-// function letterGuess (){
-//     return splitWord
-// }
-
-
-
-// if (splitWord.includes(userGuess)) {
-//     answerArray.push(userGuess)
-// }
-// else {
-//     wrongLetter.textContent += userGuess
-
-// }
-
 wordChosen()
 
 document.onkeyup = function (event) {
@@ -72,7 +58,7 @@ document.onkeyup = function (event) {
     
     else {
         wrongLetter.textContent += userGuess + " ";
-        guessesLeft--;
+        GuessesLeft--;
         
 
     
